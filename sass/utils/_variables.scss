@@ -1,7 +1,7 @@
-$color-primary: #9356dc;
-$color-secondary: #ff79da;
-$color-tertiary: #99e2d0;
-$color-ville: #eaeaea;
+$color-primary: #026873;
+$color-secondary: #04BFAD;
+$color-tertiary: #04D939;
+$color-accroche: #eaeaea;
 $color-font: #f6f6f6;
 $color-footer: #353535;
 $color-primary-light: rgba($color-primary, 0.8);
@@ -12,26 +12,10 @@ $margin: 50px 15px;
 
 $color-btn: linear-gradient(
   0deg,
-  rgba(147, 86, 220, 1) 0%,
-  rgba(255, 121, 218, 1) 100%
+  $color-primary 0%,
+  $color-secondary 100%
 );
 
 $shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
 
-$query: 992px;
-
-$timming-1: .4s;
-$timming-2: $timming-1 + $timming-1 ;
-$timming-3: $timming-2 + $timming-1 ;
-$timming-4: $timming-3 + $timming-1 ;
-$timming-5: $timming-4 + $timming-1 + .2s;
-$timming-6: $timming-5 +$timming-1 ;
-$timming-7: $timming-6 + $timming-1 ;
-$timming-8: $timming-7 + $timming-1 + .2s;
-$timming-9: $timming-8 + $timming-1 ;
-$timming-10: $timming-9 + $timming-1 ;
-$timming-btn: $timming-10 + $timming-1;
-
-$timming-entrees: .2s;
-$timming-plats: $timming-4 + $timming-entrees;
-$timming-desserts: $timming-7 + $timming-entrees;
+$query: 768px;

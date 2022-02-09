@@ -3,7 +3,8 @@
   padding: 15px 20px;
   background: $color-btn;
   display: flex;
-  @include align-justify-center;
+  justify-content: center;
+  align-items: center;
   border: none;
   border-radius: 30px;
   box-shadow: $shadow;
@@ -11,13 +12,5 @@
   &:hover {
     @include btn--hover();
     cursor: pointer;
-  }
-  &--menu{
-    animation: apparition 0.6s $timming-btn linear both;
-  }
-}
-@media screen and (min-width: $query) {
-  .btn--menu {
-    animation-delay: $timming-5;
   }
 }
