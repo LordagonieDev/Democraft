@@ -11,3 +11,7 @@ main {
   margin: 0 auto;
   max-width: 1536px;
 }
+:focus-visible{
+  outline: 3px solid $color-nouveau;
+  padding: 5px;
+}
